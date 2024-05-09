@@ -12,4 +12,6 @@ public class Book
     [Required]
     [StringLength(100)]
     public string Description { get; set; }
+    public int AuthorId { get; set; }
+    public virtual Author Author { get; set; }
 }

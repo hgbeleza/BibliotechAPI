@@ -11,4 +11,5 @@ public class CreateBookDto
     [Required]
     [StringLength(100)]
     public string Description { get; set; }
+    public int AuthorId { get; set; }
 }
